@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-size: 40px;
+    background-color: mediumaquamarine;
+}
+
+.Profileimg {
+    width: 200px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+
+#Welcome {
+    height:100%;
+    width: 100%;
+    bottom: 0;
+    color: aqua;
+    opacity: 0.9;
+    background: linear-gradient(turquoise 0%, teal 100%);
+    display: table;
+    z-index: 8;
+}
+
+.WelcomeDiv {
+    display: table-cell;
+    position: relative;
+    vertical-align: middle;
+}
+
+h1,
+h2 {
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.2;
+}
+#Name {
+    font-family: 'PT Serif', serif;
+}
+
+#bio {
+    padding: 50px;
+    margin-top: 100px;
+    text-align: center;
+}
+p {
+    max-width: 800px;
+    margin: 25px auto;
+    font-size: 30px;
+}
+.Line {
+    width: 70px;
+    height: 7px;
+    margin: 10px auto;
+    background-color: aquamarine;
+}
+html {
+    scroll-behavior: smooth;
+}
+.Article {
+    font-size: 30px;
+    text-decoration: underline;
+}
+.Article:hover {
+    background-color: coral;
+    font-size: 25px;
+    font-style: italic;
+}
+#Contact iframe {
+    width: 100%;
+}
+.Contact1 h3{
+    display: inline;
+}
